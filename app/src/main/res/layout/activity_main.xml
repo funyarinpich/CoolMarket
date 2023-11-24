@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_width="200dp"
+        android:layout_height="50dp">
+    </EditText>
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="200dp"
+        android:layout_height="50dp">
+
+    </EditText>
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Save">
+
+    </Button>
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="200dp"
+        android:layout_height="50dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/Load"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Load"></Button>
+    <Button
+        android:id="@+id/ACT3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Activity 3">
+    </Button>
+
+
+</LinearLayout>
